@@ -8,7 +8,8 @@ $lista = [
     "destreza" => 50
   ],
   "vida" => 1000,
-  "mana" => 928
+  "mana" => 928,
+  "xp" => 0
 ];
 
 echo "Nome: " . $lista["nome"] . "Idade:" . $lista['idade'] . "Atributos: " . $lista['atributos']['forca'] . "<br>";
