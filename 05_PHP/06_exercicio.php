@@ -12,4 +12,4 @@ $lista = [
   "xp" => 0
 ];
 
-echo "Nome: " . $lista["nome"] . "Idade:" . $lista['idade'] . "Atributos: " . $lista['atributos']['forca'] . "<br>";
+echo "Nome: " . $lista["nome"] . "Idade:" . $lista['idade'] . "Atributos: " . $lista['atributos']['forca'] . "<br>" . $lista['atributos']['forca'] . "<br>";
