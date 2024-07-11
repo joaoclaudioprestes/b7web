@@ -1,0 +1,2 @@
+<?php
+unlink('arquivo.txt');
