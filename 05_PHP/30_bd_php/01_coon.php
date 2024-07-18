@@ -9,7 +9,7 @@ try {
 
   echo "<pre>";
   print_r($data);
-  echo "</pre>";
+  echo "</pre>"; 
 } catch (PDOException $e) {
   echo "Connection failed: " . $e->getMessage();
 }
