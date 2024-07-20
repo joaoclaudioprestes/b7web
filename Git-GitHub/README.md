@@ -1,126 +1,28 @@
-# ![Imagem](https://media.geeksforgeeks.org/wp-content/uploads/20210915020701/Readme1.png)
+# ![Imagem](https://hermes.dio.me/articles/cover/ecf835d6-0c4d-40b4-abb8-4ffb0ae8a475.png)
 
-# 📄 README
+# O que é, para que serve, como funciona?
 
-O arquivo `README.md` é um documento essencial em um repositório de código. Ele fornece uma visão geral do projeto e informações importantes para usuários e desenvolvedores. Geralmente, é escrito em Markdown, o que facilita a formatação e a leitura.
+## ⚙️ Problemas
 
-## 🏷️ Título do Projeto
+1. Ao salvar o arquivo, não é possível voltar a um estado anterior.
+2. Falta de capacidade de colaborar com várias pessoas.
 
-O título do projeto é geralmente a primeira coisa que você vê e deve ser claro e descritivo.
+> *Sendo assim foi criado o __versionamento__.*
 
-```markdown
-# Nome do Projeto
-```
+## 🗂️ Novo repositório
 
-## 📝 Descrição
-
-Uma breve descrição do projeto, explicando o que ele faz, seu propósito e sua importância.
-
-```markdown
-Uma breve descrição do que este projeto faz e para quem é.
-```
-
-## 📦 Instalação
-
-Instruções sobre como instalar o projeto, incluindo os pré-requisitos e etapas necessárias.
-
-```markdown
-## Instalação
-
-Clone o repositório:
-
-```bash
-git clone https://github.com/usuario/projeto.git
-```
-
-Navegue até o diretório do projeto:
-
-```bash
-cd projeto
-```
-
-Instale as dependências:
-
-```bash
-npm install
-```
+- Iniciar um novo repositório:
 
 ```
-
-#### 🚀 Uso
-
-Como utilizar o projeto depois de instalado, incluindo exemplos e comandos necessários.
-
-```markdown
-## Uso
-
-Execute o projeto:
-
-```bash
-npm start
+git init
 ```
 
-Abra seu navegador e acesse `http://localhost:3000`
+*Cria um arquivo denominado .git, responsável pelo versionamento de todo o projeto.*
 
-```
+## 🌿 Branch, 📄 README e 💾 Commit
 
-#### 🤝 Contribuição
+- 🌿 Branch - [Acessar](./BRANCH.md)
 
-Diretrizes para quem deseja contribuir com o projeto, como submeter pull requests ou reportar problemas.
+- 📄 README - [Acessar](./README_I.md)
 
-```markdown
-## Contribuição
-
-Pull requests são bem-vindos. Para mudanças maiores, abra uma issue primeiro para discutir o que você gostaria de mudar.
-```
-
-## 📝 Licença
-
-Informações sobre a licença sob a qual o projeto é distribuído.
-
-```markdown
-## Licença
-
-[MIT](https://opensource.org/licenses/mit-license.php)
-```
-
-## 👥 Autores e Agradecimentos
-
-Créditos aos autores do projeto e reconhecimento de recursos ou bibliotecas utilizados.
-
-```markdown
-## Autores
-
-- [Seu Nome](https://github.com/seuusuario)
-
-## Agradecimentos
-
-- [Nome do Recurso](https://linkpararecurso.com)
-```
-
-#### Exemplo Completo de um README
-
-```markdown
-# Meu Projeto
-
-Uma breve descrição do que este projeto faz e para quem é.
-
-## Instalação
-
-Clone o repositório:
-
-```bash
-git clone https://github.com/usuario/projeto.git
-```
-
-Navegue até o diretório do projeto:
-
-```bash
-cd projeto
-```
-
-Instale as dependências:
-
-```bash
-npm install
-```
+- 💾 Commit - [Acessar](./COMMIT.md)
