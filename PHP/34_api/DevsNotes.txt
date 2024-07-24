@@ -1,0 +1,20 @@
+DevsNotes - Sistema de Anotações 
+
+O que o projeto precisa fazer?
+- Listar as anotações 
+- Pegar informalções de uma anotação
+- Inserir uma anotação
+- Atualziar uma anotação
+- Deletar uma anotação
+
+Qual a estrutura de dados?
+- Local para armazenar as informações [id, title, body]
+
+Quais os endpoints?
+- (GET) https://localhost:8000/api/notes - /api/getall.php
+- (GET) https://localhost:8000/api/note/{id} - /api/get.php/id
+- (POST) https://localhost:8000/api/note/{title, body} - /api/insert.php
+- (PUT) https://localhost:8000/api/note/{id} - /api/update.php/id
+- (DELETE) https://localhost:8000/api/note/{id} - /api/delete.php/id
+
+--- Estrutura da API ---
